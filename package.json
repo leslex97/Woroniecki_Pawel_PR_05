@@ -1,0 +1,26 @@
+{
+  "name": "woroniecki_pawel_pr_05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Woroniecki Pawel",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jquery": "^3.6.1"
+  },
+  "jshintConfig": {
+    "esversion": 7,
+    "undef": true,
+    "unused": true,
+    "maxparams": 2,
+    "globals": [
+      "console"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>REST CLIENT DEMO</title>
+    <script src="index.js"></script>
+    <script src="ajax.service.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </link>
+</head>
+
+<body>
+    <div id="loginPanel" class="panel">
+        <div style="text-align: center; margin-bottom: 4px;">App login</div>
+        <input type="text" placeholder="Username" id="login">
+        <input type="password" placeholder="Password" id="password">
+        <input type="button" id="loginBtn" value="Login">
+        <div id="message"></div>
+    </div>
+    <div id="appPanel" class="panel" style="display: none">
+        Welcome <span id="userDetails"></span>!
+        <input type="button" id="showUsersBtn" value="Show all users">
+        <input type="button" id="calculatorBtn" value="Go to calculator" onclick="goToCalculator()">
+        <table id="showAllUsers" style="display:none">
+            <tr class ='rowUsers'>
+                <th>Login:</th>
+                <th >Imie:</th>
+                <th >Nazwisko:</th>
+                <th >E-mail:</th>
+                <th >Wiek:</th>
+                <th >Data Urodzenia:</th>
+                <th >Nr.tel:</th>
+                <th >Miasto:</th>
+              </tr>
+    
+              
+            
+        </table>
+    
+        
+    </div>
+
+    <div id = calculator style="display: none"></div>
+</body>
+
+</html>
